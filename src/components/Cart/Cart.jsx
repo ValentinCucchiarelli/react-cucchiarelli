@@ -1,9 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-export default function CartContext() {
-  const [cart, setCart] = useState([]);
-
-  const addCart = (id) => {};
-
-  return <>CARRITO</>;
+export default function Carrito() {
+  return <div>Carrito de Compras</div>;
 }

@@ -1,5 +1,12 @@
-.cardContainer {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+.card-img {
+    width: 100%;
+
+}
+
+.card-text {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    margin-left: 22px;
+    
 }

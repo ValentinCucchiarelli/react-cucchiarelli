@@ -1,18 +1,21 @@
 import React from 'react';
+import IconoInstagram from '../../images/redes/instagram.png';
 import '../Footer/Footer.css';
-import iconInstagram from '../../images/iconos/instagram.svg';
+
+
 
 const toInstagram = () => {
-  window.open('https://www.instagram.com/perfildelvino/');
+  window.open('https://www.instagram.com/valenn.ds3/');
 };
+
 export default function Footer() {
   return (
     <>
       <footer>
         <div>
-          <img src={iconInstagram} alt={'Logo de instagram'} onClick={toInstagram} />
+          <img src={IconoInstagram} alt={'instagram'} onClick={toInstagram} />
         </div>
-        <p className="footer_txt">Copyright &copy; 2022 "Perfil del Vino". Todos los derechos reservados.</p>
+        <p className="footer_txt">Copyright &copy; 2022 - <b>FachiStyle</b> - Todos los derechos reservados.</p>
       </footer>
     </>
   );

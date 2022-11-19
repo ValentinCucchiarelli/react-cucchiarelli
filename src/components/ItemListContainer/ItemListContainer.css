@@ -1,4 +1,7 @@
-.saludo {
-  text-align: center;
-  padding: 17.7%;
+.container-img {
+    place-items:center;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    padding-top: 8px;
+    padding-bottom: 8px;
 }

@@ -1,22 +1,24 @@
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 import Badge from '@mui/material/Badge';
-import React from 'react';
-import { Link } from 'react-router-dom';
-import '../CartWidget/CartWidget.css';
+import IconButton from '@mui/material/IconButton';
+import { styled } from '@mui/material/styles';
+import * as React from 'react';
 
-//! PASAR POR PROP LA CANTIDAD DE ITEMS EN CART PARA AGREGARLA A "badgeContent"
-export default function CartWidget() {
-  const seeCart = () => {
-    console.log('viendo carrito');
-  };
+const StyledBadge = styled(Badge)(({ theme }) => ({
+  '& .MuiBadge-badge': {
+    right: -3,
+    top: 13,
+    border: `2px solid ${theme.palette.background.paper}`,
+    padding: '0 4px',
+  },
+}));
 
+export default function CustomizedBadges() {
   return (
-    <>
-      <Link to="/cart" size="large" aria-label="show 0 new items" color="white">
-        <Badge badgeContent={2} color="error">
-          <ShoppingCartIcon onClick={seeCart} />
-        </Badge>
-      </Link>
-    </>
+    <IconButton aria-label="cart" style={{ background: "#fff" }}>
+      <StyledBadge badgeContent={1} color="primary">
+        <ShoppingBagOutlinedIcon />
+      </StyledBadge>
+    </IconButton>
   );
 }
