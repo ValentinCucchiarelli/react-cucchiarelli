@@ -26,7 +26,7 @@ function Home() {
             price: 12980,
             colores: 'Blanco',
             material: 'Poplin',
-            talle: ['S', 'M', 'XL']
+            talle: ['S', 'M', 'L', 'XL']
         },
         {
             id: 3,
@@ -36,7 +36,7 @@ function Home() {
             price: 4980,
             colores: 'Negro, Beige, Chocolate',
             material: 'Jersey',
-            talle: ['M', 'L', 'XL']
+            talle: ['S', 'M', 'L', 'XL']
         },
         {
             id: 4,
@@ -46,7 +46,7 @@ function Home() {
             price: 9980,
             colores: 'Beige, Rosa, Camel',
             material: 'Sire',
-            talle: ['S', 'M', 'L']
+            talle: ['S', 'M', 'L', 'XL']
         },
         {
             id: 5,
@@ -56,7 +56,7 @@ function Home() {
             price: 7980,
             colores: 'Camel, Blanco, Negro',
             material: 'Gabardina',
-            talle: ['S', 'M', 'XL']
+            talle: ['S', 'M', 'L', 'XL']
         },
         {
             id: 6,
@@ -66,7 +66,7 @@ function Home() {
             price: 19580,
             colores: 'Rosa, Camel, Beige',
             material: 'Sire',
-            talle: ['S', 'L', 'XL']
+            talle: ['S', 'M', 'L', 'XL']
         },
         {
             id: 7,
@@ -76,7 +76,7 @@ function Home() {
             price: 9780,
             colores: 'Negro',
             material: 'Rústico',
-            talle: ['S', 'M', 'L']
+            talle: ['S', 'M', 'L', 'XL']
         },
         {
             id: 8,
@@ -86,7 +86,7 @@ function Home() {
             price: 19980,
             colores: 'Naranja, Azul, Amarillo, Verde',
             material: 'Sire',
-            talle: ['S', 'L', 'XL']
+            talle: ['S', 'M', 'L', 'XL']
         },
         {
             id: 9,
@@ -96,8 +96,98 @@ function Home() {
             price: 9180,
             colores: 'Bordo, Camel, Beige, Negro',
             material: 'Rústico',
-            talle: ['M', 'L', 'XL']
-        }
+            talle: ['S', 'M', 'L', 'XL']
+        },
+        {
+            id: 10,
+            img: 'https://batukjeans.com.ar/site/wp-content/uploads/2022/11/BOENT-1.jpg',
+            type: 'men',
+            name: 'Campera World Wild',
+            price: 21980,
+            colores: 'Verde, Azul, Bordo, Beige',
+            material: 'Sire',
+            talle: ['S', 'M', 'L', 'XL']
+        },
+        {
+            id: 11,
+            img: 'https://batukjeans.com.ar/site/wp-content/uploads/2022/10/CHARMED.jpg',
+            type: 'men',
+            name: 'Remera Charm',
+            price: 4580,
+            colores: 'Crema, Verde',
+            material: 'Jersey / Bordada',
+            talle: ['S', 'M', 'L', 'XL']
+        },
+        {
+            id: 12,
+            img: 'https://batukjeans.com.ar/site/wp-content/uploads/2022/09/celesteen.jpg',
+            type: 'men',
+            name: 'Bermuda Dancer',
+            price: 7180,
+            colores: 'Celeste, Negro, Salmon, Marino',
+            material: 'Rustico',
+            talle: ['S', 'M', 'L', 'XL']
+        },
+        {
+            id: 13,
+            img: 'https://batukjeans.com.ar/site/wp-content/uploads/2022/11/JARDIMED-1.jpg',
+            type: 'woman',
+            name: 'Jumper Alexa',
+            price: 7580,
+            colores: 'Beige, Camel, Negro',
+            material: 'Gabardina',
+            talle: ['S', 'M', 'L', 'XL']
+        },
+        {
+            id: 14,
+            img: 'https://batukjeans.com.ar/site/wp-content/uploads/2022/10/BODYMED.jpg',
+            type: 'woman',
+            name: 'Body Olivia',
+            price: 7180,
+            colores: 'Aqua, Lila, Negro, Blanco',
+            material: 'Lycra',
+            talle: ['S', 'M', 'L', 'XL']
+        },
+        {
+            id: 15,
+            img: 'https://batukjeans.com.ar/site/wp-content/uploads/2022/08/TOBIENT.jpg',
+            type: 'woman',
+            name: 'Babucha Harvard',
+            price: 9980,
+            colores: 'Beige, Rosa, Verde, Negro',
+            material: 'Rustico',
+            talle: ['S', 'M', 'L', 'XL']
+        },
+        {
+            id: 16,
+            img: 'https://batukjeans.com.ar/site/wp-content/uploads/2022/10/TENT.jpg',
+            type: 'fachi',
+            name: 'Top Candy',
+            price: 3980,
+            colores: 'Negro',
+            material: 'Lycra',
+            talle: ['S', 'M', 'L', 'XL']
+        },
+        {
+            id: 17,
+            img: 'https://batukjeans.com.ar/site/wp-content/uploads/2022/10/CHOMBENT.jpg',
+            type: 'fachi',
+            name: 'Chomba Remember',
+            price: 6980,
+            colores: 'Negro, Blanco',
+            material: 'Jersey',
+            talle: ['S', 'M', 'L', 'XL']
+        },
+        {
+            id: 18,
+            img: 'https://batukjeans.com.ar/site/wp-content/uploads/2022/09/short-7087-e.jpg',
+            type: 'fachi',
+            name: 'Short Kledys',
+            price: 13780,
+            colores: 'Verde, Azul, Naranja, Negro',
+            material: 'Sire / Bolsillos frontales con fuelle y cierre',
+            talle: ['S', 'M', 'L', 'XL']
+        },
         ]
 
     useEffect(() => {
